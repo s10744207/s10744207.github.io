@@ -1,0 +1,103 @@
+body{
+    background-image: url(images/15.jpg);
+    
+}
+#header{
+    
+    width: 1300px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:20px ;
+    margin-bottom:20px ;
+    text-align: center;    
+    font-family: 標楷體;
+    background-color: #015249;  
+    color: rgb(255, 255, 255);
+    font-size: 50px;  
+
+
+}
+
+#nav{
+    width: 1300px;
+    height: 50px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;    
+    font-family: 標楷體;
+    background-color: #57bc90;  
+    color: red;
+    font-size: 30px; 
+    
+
+
+
+}
+#blenner{
+
+    width: 1300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:20px ;
+    margin-bottom:20px ;
+    text-align: center;
+    font-family: 微軟正黑體 ;
+    
+    color: rgb(255, 253, 253);
+    font-size: 50px;
+
+    background:linear-gradient(to top right, #8fbde7,#7393fa , #0471b1)
+    
+    
+}
+
+#section{   
+
+    width: 750px;
+    height: 750px;
+    margin: 20px 20px 20px 20px;
+    background-color:#015249;
+    float: left;
+}
+
+
+#aside{
+    width: 450px;
+    height: 750px;
+
+    margin: 20px 20px 20px 20px;
+    float: right;
+    background-color:#015249;
+}
+#picture{
+    clear: both;
+    width: 1300px;
+    height: 900px;
+    margin: 20px 20px 20px 20px;    
+    background-color:#015249;
+
+
+
+}
+
+
+
+#footer{
+    clear: both;
+    width: 1300px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:20px ;
+    margin-bottom:20px ;
+    text-align: center;
+    font-family: 標楷體;
+    background-color: #015249;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
