@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/manage.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/manage_goods_add.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        i ♡ computer
+        <button type="button" class="btn btn-outline-primary" onclick="location.href='sign.html'" >登入/註冊</button> 
+        <button type="button" class="btn btn-outline-primary" onclick="location.href='cart.html'">購物車</button> 
+    </div>
+    <br>
+    <div id="nav">
+        <button type="button" class="btn btn-outline-danger"  onclick="location.href='../index.html'">回首頁</button>
+        <button type="button" class="btn btn-outline-danger" onclick="location.href='manage_goods.html'">商品管理</button> 
+        <button type="button" class="btn btn-outline-danger" onclick="location.href='manage_order.html'">訂單管理</button>
+        <button type="button" class="btn btn-outline-danger" onclick="location.href='manage_member.html'">會員管理</button>
+        <button type="button" class="btn btn-outline-danger" onclick="location.href='manage_board.html'">查看留言</button>
+    </div>
+    <br>
+    <div id="sidebar_left"></div>
+
+    <div id="sidebar_right"></div>
+    <div id="content">
+        <br>
+      <h1 class="c">新增商品    
+      </h1>
+      <hr color="white">
+        <button type="button" class="btn btn-outline-success" onclick="location.href='manage_goods_add.html'"
+            class="a">筆記型電腦</button>
+        <button type="button" class="btn btn-outline-success" onclick="location.href='manage_goods_add_desk.html'"
+            class="a">桌上型電腦</button>
+      
+
+      <div >
+        <br>
+        <form>
+            <table align="center" >
+                <tr>
+                    <td class="word">
+                        圖片位址：
+                    </td>
+                    <td>
+                        <input type="text" name="img" value="" size="50" maxlength="99" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="word">
+                        名稱：
+                    </td>
+                    <td>
+                        <input type="text" name="goodsname" value="" size="50" maxlength="99" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="word">
+                        品牌：
+                    </td>
+                    <td>
+                        <input type="text" name="trademark" value="" size="50" maxlength="99" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="word">
+                        價錢：
+                    </td>
+                    <td>
+                        <input type="text" name="price" value="" size="50" maxlength="99" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="word">
+                        顯示卡：
+                    </td>
+                    <td>
+                        <input type="text" name="card" value="" size="50" maxlength="99" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="word">
+                        記憶體：
+                    </td>
+                    <td>
+                        <input type="text" name="ram" value="" size="50" maxlength="99" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="word">
+                        作業系統：
+                    </td>
+                    <td>
+                        <input type="text" name="system" value="" size="50" maxlength="99" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="word">
+                        CPU：
+                    </td>
+                    <td>
+                        <input type="text" name="cpu" value="" size="50" maxlength="99" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="word">
+                        硬碟類型及容量：
+                    </td>
+                    <td>
+                        <input type="text" name="disk" value="" size="50" maxlength="99" />
+                    </td>
+                </tr>               
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="儲存">
+                    </td>
+                </tr>
+
+
+
+            </table>
+        </form>
+
+    </div>
+        
+
+
+       
+    </div>
+   <br>
+    <div class="footer">
+		<p>　</p>
+		<p>　多媒體程式設計期末專案</p>
+		<p>　聯絡方式:s10411005w29264481@gmail.com</p>
+		<p>　</p>		
+    </div>
+    
+</body>
+</html>
