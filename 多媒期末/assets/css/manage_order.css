@@ -1,0 +1,24 @@
+.single_product{
+    width: 85%;
+    margin: 10PX auto;
+    border-style:solid;
+    border-color: ivory;
+    padding: 5px;
+}
+.wordarea{
+    float: left;
+    width: 60%;
+}
+.wordtitle{
+    float: left;
+    text-align: right;
+    width: 30%;
+    font-family: "微軟正黑體";
+}
+.wordinfo{
+    text-align: left;
+    padding: 0px 10px;
+    float: left;
+    width: 70%;
+    font-family: "微軟正黑體";
+}
